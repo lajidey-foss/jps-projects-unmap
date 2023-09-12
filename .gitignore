@@ -1,0 +1,7 @@
+.DS_Store
+*.pyc
+*.egg-info
+*.swp
+tags
+jpsage_projects_idea/docs/current
+node_modules/

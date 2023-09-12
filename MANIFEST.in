@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include jpsage_projects_idea *.css
+recursive-include jpsage_projects_idea *.csv
+recursive-include jpsage_projects_idea *.html
+recursive-include jpsage_projects_idea *.ico
+recursive-include jpsage_projects_idea *.js
+recursive-include jpsage_projects_idea *.json
+recursive-include jpsage_projects_idea *.md
+recursive-include jpsage_projects_idea *.png
+recursive-include jpsage_projects_idea *.py
+recursive-include jpsage_projects_idea *.svg
+recursive-include jpsage_projects_idea *.txt
+recursive-exclude jpsage_projects_idea *.pyc
