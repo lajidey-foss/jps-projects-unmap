@@ -1,0 +1,143 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-09-12 15:25:17.447588",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "title",
+  "status",
+  "cenception_date",
+  "column_break_tpl0r",
+  "priority",
+  "concept_stage",
+  "end_of_life",
+  "section_break_liihs",
+  "approval_required_before_project",
+  "proceed_template",
+  "column_break_1csif",
+  "assign_department",
+  "connections_tab",
+  "check_list",
+  "view_board_tab",
+  "discuss_board"
+ ],
+ "fields": [
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Title"
+  },
+  {
+   "fieldname": "cenception_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Cenception Date"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "Pending\nApproved\nRejected"
+  },
+  {
+   "fieldname": "discuss_board",
+   "fieldtype": "Text Editor",
+   "label": "Discuss Board"
+  },
+  {
+   "fieldname": "end_of_life",
+   "fieldtype": "Date",
+   "label": "End of Life"
+  },
+  {
+   "default": "0",
+   "fieldname": "approval_required_before_project",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "Approval Required before Project",
+   "read_only": 1
+  },
+  {
+   "fieldname": "proceed_template",
+   "fieldtype": "Data",
+   "label": "Proceed Template"
+  },
+  {
+   "fieldname": "priority",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Priority",
+   "options": "High\nMedium\nLow"
+  },
+  {
+   "fieldname": "assign_department",
+   "fieldtype": "Link",
+   "label": "Assign Department",
+   "options": "Department"
+  },
+  {
+   "fieldname": "concept_stage",
+   "fieldtype": "Select",
+   "label": "Concept Stage",
+   "options": "\nIdentifying Decision Makers\nNeeds Analysis\nNegotiation/Review\nPerception Analysis\nQualification\nValue Proposition"
+  },
+  {
+   "fieldname": "view_board_tab",
+   "fieldtype": "Tab Break",
+   "label": "View Board"
+  },
+  {
+   "fieldname": "section_break_liihs",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_tpl0r",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_1csif",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "connections_tab",
+   "fieldtype": "Tab Break",
+   "label": "Connections",
+   "show_dashboard": 1
+  },
+  {
+   "fieldname": "check_list",
+   "fieldtype": "Table",
+   "label": "Check list",
+   "options": "Contract Fulfilment Checklist"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-09-19 21:20:47.662958",
+ "modified_by": "Administrator",
+ "module": "Jpsage Projects Idea",
+ "name": "Idea Concept",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
