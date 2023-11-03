@@ -43,4 +43,48 @@ frappe.ui.form.on('Idea Concept', {
 		})
 	},
 });
+
+/*
+project: function(frm) {
+		//apply filter to task field on project field selected
+		cur_frm.set_query("task", () => {
+            return {
+                filters: [
+                    ["Task", "project", "=", cur_frm.doc.project]
+                ]
+            }
+        })
+		cur_frm.refresh_fields(["project", "task"])
+	},
+	},
+
+
+
+	task: function(frm) {
+		//set project if task is clicked first
+		if(cur_frm.doc.project == null){
+			frappe.db.get_value('Task', cur_frm.doc.task, 'project')
+				.then(r => {
+					cur_frm.set_value("project",r.message.project);
+
+					cur_frm.refresh_fields(["task","project"])
+				})
+
+        }
+
+	},
+*/
+/**
+ * py mark complete : give error coming back to click it after over 30min
+ * self.db_set("project", project.name)
+		self.db_set("boarding_status", "Pending")
+		self.reload()
+	//
+	//here
+			
+			frm.call("set_kras_and_rating_criteria", () => {
+				frm.refresh_field("appraisal_kra");
+				frm.refresh_field("feedback_ratings");
+			});
+ */
  

@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "field:title",
  "creation": "2023-09-12 15:25:17.447588",
  "default_view": "List",
  "doctype": "DocType",
@@ -29,7 +30,8 @@
    "fieldname": "title",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "Title"
+   "label": "Title",
+   "unique": 1
   },
   {
    "fieldname": "cenception_date",
@@ -118,10 +120,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-09-19 21:20:47.662958",
+ "modified": "2023-10-31 01:11:17.448511",
  "modified_by": "Administrator",
  "module": "Jpsage Projects Idea",
  "name": "Idea Concept",
+ "naming_rule": "Set by user",
  "owner": "Administrator",
  "permissions": [
   {
